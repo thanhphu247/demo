@@ -45,7 +45,7 @@ class App extends React.Component {
     })
   }
   deleteItem(key){
-    const filteredItems= this.state.items.filter(item =>
+    const filteredItems = this.state.items.filter(item =>
       item.key!==key);
     this.setState({
       items: filteredItems
@@ -76,8 +76,10 @@ class App extends React.Component {
           <button type="submit">Add</button>
         </form>
         <p>{this.state.items.text}</p>
-        
+        <div className="listBx">
           <ListItems items={this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate}/>
+        </div>
+          
         
       </header>
     </div>
