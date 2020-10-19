@@ -24,6 +24,7 @@ body{
   padding: 0 20px;
   border-radius: 10px;
   color: #000;
+  outline: none;
 }
 
 #to-do-form button{
@@ -33,4 +34,5 @@ body{
   border: 0;
   background-color: brown;
   cursor: pointer;
+  outline: none;
 }
