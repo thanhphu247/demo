@@ -1,21 +1,20 @@
-/* 
-.App{
-  background-color: #191970;
+
+.listBx {
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
 }
 
-#to-do-form{
+#to-do-form {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  background: #444444;
+  background: #444;
   border-radius: 10px;
 }
 
-#to-do-form input{
+#to-do-form input {
   background-color: #00fa9a;
   border: 0;
   width: 250px;
@@ -26,7 +25,7 @@
   outline: none;
 }
 
-#to-do-form button{
+#to-do-form button {
   height: 50px;
   width: 80px;
   border-radius: 5px;
@@ -34,4 +33,11 @@
   background-color: brown;
   cursor: pointer;
   outline: none;
-} */
+}
+
+.listBx .contentList{
+  background: pink;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
