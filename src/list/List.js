@@ -3,6 +3,7 @@ import './List.css';
 import ListItems from '../list-items'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
+import Page from '../pagination/pagination';
 
 library.add(faTrash)
 
@@ -81,7 +82,7 @@ class List extends React.Component {
         <div className="contentList">
           <ListItems items={this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate}/>
         </div>
-          
+        <Page />
         
       </header>
     </div>
